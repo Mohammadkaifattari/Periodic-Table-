@@ -3,7 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+button {
+  background-color: blue;
+  transition: background-color 0.5s ease;
+}
 
+
+.in>a{
+    color: #2e0790d3;
+    text-decoration-line: unset;
+
+}
+
+.in{
+
+    text-decoration: none;
+    text-decoration-line: unset;
+    
+}
 body {
     
     background: linear-gradient(to right, #49b1b1, #14f7fb, #49b1b1);
@@ -22,7 +39,7 @@ header h1,h2 {
 }
 
 /* Table Styling */
-table {
+table { 
     empty-cells: hide;
     margin: auto;
     /* border-collapse: collapse; */
@@ -123,12 +140,13 @@ th:hover {
 }
 
 /* Responsive */
-@media (max-width: 768px)
+@media (max-width: 768px) {
     th {
         padding: 10px;
         min-width: 260px;
         font-size: 0.8em;
     }
+}
 #pp{
     empty-cells: hide;
 }
