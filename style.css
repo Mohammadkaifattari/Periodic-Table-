@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 button {
   background-color: blue;
   transition: background-color 0.5s ease;
 }
-
+.t1{
+    color: whitesmoke;
+    text-shadow:  0 0 10px rgb(235, 255, 10);
+}
 
 .in>a{
     color: #2e0790d3;
@@ -19,14 +23,21 @@ button {
 
     text-decoration: none;
     text-decoration-line: unset;
+
+    
+}
+.t4{
+    list-style-type: none;
     
 }
 body {
+
     
-    background: linear-gradient(to right, #49b1b1, #14f7fb, #49b1b1);
+    background: linear-gradient(to right,#499ab1,rgb(8, 8, 130), #499ab1);
     color: white;
     padding: 20px;
     text-align: center;
+
 }
 
 
